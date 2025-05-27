@@ -12,7 +12,6 @@ with open('vectorizer.pkl', 'rb') as f:
 # instancia da api
 app = FastAPI()
 
-# schema
 class Review(BaseModel):
     text: str
 
